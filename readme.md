@@ -30,7 +30,6 @@ Some basic information on interacting with the vagrant box
 
 * 8888 - Apache
 * 8889 - MySQL 
-* 5433 - PostgreSQL
 
 
 ### Default MySQL/PostgreSQL Database
@@ -79,7 +78,4 @@ Vagrant is [very well documented](http://vagrantup.com/v1/docs/index.html) but h
 * Apache - 2.4.6
 * PHP    - 5.5.4
 * MySQL  - 5.5.32
-* PostgreSQL - 9.1
-* Beanstalkd - 1.4.6
-* Redis - 2.2.12
 * Memcached - 1.4.13
