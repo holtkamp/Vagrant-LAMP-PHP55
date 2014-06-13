@@ -1,4 +1,5 @@
 <VirtualHost *:80>
+	ServerName vagrant.dev
 	DocumentRoot /var/www/html
 	
 	<Directory />
