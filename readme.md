@@ -27,8 +27,8 @@ Some basic information on interacting with the vagrant box
 
 ### Port Forwards
 
-* 8888 - Apache
-* 8889 - MySQL 
+* 8080 - Apache
+* 33306 - MySQL 
 
 
 ### Default MySQL/PostgreSQL Database
@@ -40,7 +40,7 @@ Some basic information on interacting with the vagrant box
 
 ### PHPmyAdmin
 
-Accessible at http://localhost:8888/phpmyadmin using MySQL access credentials above.
+Accessible at http://localhost:8080/phpmyadmin using MySQL access credentials above.
 
 ### PHP XDebug
 
