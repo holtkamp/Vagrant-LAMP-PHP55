@@ -1,20 +1,20 @@
 <VirtualHost *:80>
 	ServerName vagrant.dev
-	DocumentRoot /var/www/html
+	DocumentRoot /var/www/public_html
 	
 	<Directory />
 		Options FollowSymLinks
 		AllowOverride None
 	</Directory>
 	
-	<Directory /var/www/html>
+	<Directory /var/www/public_html>
 		Options Indexes FollowSymLinks MultiViews
 		AllowOverride All
 		Order allow,deny
 		allow from all
 	</Directory>
 
-	ErrorLog /var/log/apache2/error.log
+	ErrorLog /var/log/apache2/vagrant_dev-error.log
 	LogLevel warn
-	CustomLog /var/log/apache2/access.log combined
+	CustomLog /var/log/apache2/vagrant_dev-access.log combined
 </VirtualHost>
